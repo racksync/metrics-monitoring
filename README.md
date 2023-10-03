@@ -1,6 +1,6 @@
 # Monitoring Stack with Docker Compose
 
-This repository contains a Docker Compose setup for a simple monitoring stack, which includes [Grafana](https://grafana.com/), [Prometheus](https://prometheus.io/), and [Node Exporter](https://github.com/prometheus/node_exporter).
+This repository contains a Docker Compose setup for a simple monitoring stack, which includes [Grafana](https://grafana.com/), [Prometheus](https://prometheus.io/), [Node Exporter](https://github.com/prometheus/node_exporter), [InfluxDB](https://www.influxdata.com/)  and [Chronograf](https://www.influxdata.com/time-series-platform/chronograf/).
 
 ![Screenshot](Screenshot.png)
 
@@ -19,9 +19,16 @@ cd metrics-monitoring
 
 ```
 
-Configure the Grafana admin password by editing the .env file:
+Configure the Grafana admin password by editing the ```.env``` file:
 
-```GF_SECURITY_ADMIN_PASSWORD=[YourSecurePassword]```
+```sh
+GF_SECURITY_ADMIN_PASSWORD=[YourSecurePassword]
+
+INFLUXDB_PASSWORD=PASSWORD
+
+INFLUXDB_ADMIN_PASSWORD=PASSWORD
+```
+
 
 ### Start the stack
 
