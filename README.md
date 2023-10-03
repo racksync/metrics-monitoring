@@ -75,7 +75,7 @@ To import a pre-made dashboard, navigate to "Dashboards" > "Manage" > "Import" a
 
 ## [RACKSYNC CO., LTD.](https://racksync.com)
 
-We helps our customers to create life easier across the border of entire technology stack with household and business solutions. We modernize life with Information Technology, Optimize and collect data to make everything possible, secure & trusty
+We help our customers make their lives easier across the entire technology stack with household and business solutions. We modernize life with information technology, optimize and collect data to make everything possible, secure, and trustworthy.
 \
 \
 RACKSYNC COMPANY LIMITED \
