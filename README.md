@@ -46,7 +46,7 @@ Access the stack via Grafana at [http://localhost:3000](http://localhost:3000). 
 
 To create a new dashboard, use the Grafana UI to build your visualizations.
 
-To import a pre-made dashboard, navigate to "Dashboards" > "Manage" > "Import" and provide the JSON or Grafana.com ID. (eg: 1860)
+To import a pre-made dashboard, navigate to "Dashboards" > "Manage" > "Import" and provide the JSON or Grafana.com ID. (eg: ```1860```)
 
 ## Notes
 
