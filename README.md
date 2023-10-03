@@ -2,6 +2,8 @@
 
 This repository contains a Docker Compose setup for a simple monitoring stack, which includes [Grafana](https://grafana.com/), [Prometheus](https://prometheus.io/), and [Node Exporter](https://github.com/prometheus/node_exporter).
 
+![Screenshot](Screenshot.png)
+
 ## Prerequisites
 
 - [Docker](https://docs.docker.com/get-docker/)
