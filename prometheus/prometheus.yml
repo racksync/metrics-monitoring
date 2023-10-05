@@ -14,14 +14,22 @@ scrape_configs:
 #      - targets: ['node-exporter-1:9100', 'node-exporter-2:9100', 'node-exporter-3:9100']
 
 
-
 # Single Target on each Multiple Node 
 #  - job_name: 'node-exporter-1'
 #    static_configs:
 #      - targets: ['node-exporter-1:9100']
+#         labels:
+#           instance: 'node-1'
 #  - job_name: 'node-exporter-2'
 #    static_configs:
 #      - targets: ['node-exporter-2:9100']
+#         labels:
+#           instance: 'node-2'
 #  - job_name: 'node-exporter-3'
 #    static_configs:
 #      - targets: ['node-exporter-3:9100']
+#         labels:
+#           instance: 'node-3'
+#     basic_auth:
+#      username: user
+#      password: password
